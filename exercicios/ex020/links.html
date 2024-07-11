@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+          color: cyan;
+          text-decoration: none;
+          font-weight: bold;
+        }
+
+        a:visited{
+            color: rgb(212, 42, 42);
+        }
+
+        li#sla > img{
+            display: none;
+        }
+        
+        li#sla:hover > img{
+            display: block;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+             color: burlywood;
+        }
+
+        a::before{
+            content: ' eu ';
+        }
+
+        a::after{
+            content: ' voce';
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <main>
+            <li id="sla"><a href="https://youtu.be/tI5LU0lc9lM?si=NQr7TuDY8aimnLld" target="_self">musica</a>
+            <img src="im1.jpeg" alt="yung">
+            </li>
+        </main>
+        <li><a href="https://youtu.be/iqltoDSDCZw?si=nU3DfYJ84n1x7o4L">album</a></li>
+        <li><a href="https://www.youtube.com/channel/UC7HEgPN96vWefu6rb_Ta9KQ">cantor</a></li>
+    </ul>
+</body>
+</html>

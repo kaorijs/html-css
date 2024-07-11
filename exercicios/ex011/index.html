@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em bvarios dispositivos diferentes ou simplismente aumente o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="foto flexivel">
+    </picture>
+     
+    <h1>reproduzindo audios</h1>
+    <p>vamos aprender a reproduzir audios</p>
+    <audio src="media/ytmp3free.cc_yung-vegan-taro-prod-v-i-n-i-c-r-e-i-z-i-2019-youtubemp3free.org.mp3" controls autoplay></audio>
+    <audio> 
+        <source src="media/ytmp3free.cc_yung-vegan-taro-prod-v-i-n-i-c-r-e-i-z-i-2019-youtubemp3free.org.mp3" type="audio/mpeg">
+        <!--o type define o tipo de audio (mpag,wav,ogg)-->
+    </audio>
+    <p>infelizmente o seu navegador nao pe compativel com audio. <a href="media/ytmp3free.cc_yung-vegan-taro-prod-v-i-n-i-c-r-e-i-z-i-2019-youtubemp3free.org.mp3" target="_blank">clique aqui para abaixar </a></p>
+    <!--MP3 WAV OGG-->
+</body>
+</html>

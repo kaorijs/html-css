@@ -1,0 +1,34 @@
+@charset "UTF-8";
+body{
+    background-color: #F9F5FF;
+}
+h1{
+    color: #14248A;
+}
+h1#principal{
+    text-align: center;
+}
+main#sla{
+    background-color: aqua;
+    box-shadow: 10px 10px 10px;
+    width: 600px;
+   
+}
+.basico{
+    color: green;
+    font-weight: bolder;
+}
+.intermediario{
+    color: yellow;
+    
+}
+.avançado{
+    color: red;
+}
+h2{
+    
+    color: #998FC7;
+}
+.destaque{
+    color: #14248A; background-color: aqua;
+}
