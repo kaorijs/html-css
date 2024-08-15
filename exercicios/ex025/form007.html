@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+   
+    <p>
+        <label for="ies">estado</label>
+        <select name="es" id="ies">
+            <optgroup label="Região Sul">
+                <option value="SP" >São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ" selected>Rio de Janeiro</option>
+            </optgroup>
+
+            <optgroup label="Região Nordeste">
+                <option value="MA">Maranhão</option>
+                <option value="PE">Pernambuo</option>
+                <option value="RN">Rio Grande Do Norte</option>
+            </optgroup>
+
+        </select>
+    </p>
+
+    <p>
+        <label for="iprof">profissão</label>
+        <input type="text" name="prof" id="iprof" list="istprof">
+        <datalist id="istprof">
+            <option value="ADM">administrador</option>
+            <option value="PROF">professor</option>
+            <option value="DEV">desenvolvedor</option>
+            <option value="CONT">contador</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="imsg">comentarios</label>
+        <textarea maxlength="10" name="msg" id="imsg" cols="30" rows="10"></textarea>
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</form>
+</body>
+</html>
